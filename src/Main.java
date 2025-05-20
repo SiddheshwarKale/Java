@@ -198,14 +198,30 @@ public class Main {
 
 //        Q5 print the patern     #inverted half pyramid (Roteded by 180 deg)
 
-        int n=4;
-        for (int i=1;i<=n;i++){
-            for (int j=1;j<=n-i;j++){
-                System.out.print(" ");
-            }
-            for (int j=1;j<=i;j++){
-                System.out.print("*");
+//        int n=4;
+//        for (int i=1;i<=n;i++){
+//            for (int j=1;j<=n-i;j++){
+//                System.out.print(" ");
+//            }
+//            for (int j=1;j<=i;j++){
+//                System.out.print("*");
+//
+//            }
+//            System.out.println();
+//        }
 
+//        Q6 print the pattern       #half pyramid with numbers
+
+//        1
+//        12
+//        123
+//        1234
+//        12345
+
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(j);
             }
             System.out.println();
         }
