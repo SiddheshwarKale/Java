@@ -188,10 +188,24 @@ public class Main {
 //        **
 //        *
 
-        int n =4;
-        for(int i=n;i>=1;i--){
+//        int n =4;
+//        for(int i=n;i>=1;i--){
+//            for (int j=1;j<=i;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+//        Q5 print the patern     #inverted half pyramid (Roteded by 180 deg)
+
+        int n=4;
+        for (int i=1;i<=n;i++){
+            for (int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
             for (int j=1;j<=i;j++){
                 System.out.print("*");
+
             }
             System.out.println();
         }
