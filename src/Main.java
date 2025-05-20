@@ -132,10 +132,27 @@ public class Main {
 //        }
 
 //        que;-3 Print all even Number till n.
-        int n=sc.nextInt();
-        for (int i=0;i<=n;i++){
-            System.out.println(i%2==0);
+//        int n=sc.nextInt();
+//        for (int i=0;i<=n;i++){
+//            System.out.println(i%2==0);
+//        }
+//        for ( ; ; ){
+//            System.out.println("Sidd Kale");
+//        }
+
+//        20-may-2025
+//   print the pattern  #solid rectangal
+//        *****
+//        *****
+//        *****
+//        *****
+        for(int i=1;i<=4;i++){
+            for(int j=1;j<=5;j++){
+                System.out.print("*");
+            }
+            System.out.println("");
         }
+
 
 
 
