@@ -282,65 +282,109 @@ public class Main {
 
 //        practice 21-may-2025
 
-        for(int i=1;i<=4;i++){
+//        for(int i=1;i<=4;i++){
+//            for(int j=1;j<=i;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//
+////        #2
+//
+//        System.out.println("..................................");
+//
+//        for(int i=1;i<=4;i++){
+//            for(int j=1;j<=4-i;j++){
+//                System.out.print(" ");
+//            }
+//            for(int j=1;j<=i;j++){
+//                System.out.print("*");
+//            }System.out.println();
+//        }
+//
+////        #3
+//        System.out.println("..................................");
+//        int num=1;
+//        for(int i=1;i<=4;i++){
+//            for(int j=1;j<=i;j++){
+//
+//                System.out.print(num+" ");
+//                num++;
+//            }
+//            System.out.println();
+//        }
+//
+//        System.out.println("..................................");
+//
+////        #4
+//     for(int i=1;i<=4;i++){
+//         for(int j=1;j<=4;j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
+//
+//
+//        System.out.println("..................................");
+//
+////     #5
+//
+//        int n=4;
+//        int m=5;
+//        for(int i=1;i<=n;i++){
+//            for(int j=1;j<=m;j++){
+//                if( i==1 || j==1 || i==n || j==m){
+//                    System.out.print("*");
+//                }else{
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+//  22-may-2025
+//        Q10} print the Pattern         #Butturfly Pattern
+//     *      *
+//     **    **
+//     ***  ***
+//     ********
+//     ********
+//     ***  ***
+//     **    **
+//     *      *
+
+
+        int n=4;
+
+        for (int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
+
                 System.out.print("*");
             }
-            System.out.println();
-        }
+            int spa=2*(n-i);
+            for( int j=1;j<=spa;j++){
 
-//        #2
-
-        System.out.println("..................................");
-
-        for(int i=1;i<=4;i++){
-            for(int j=1;j<=4-i;j++){
                 System.out.print(" ");
             }
             for(int j=1;j<=i;j++){
                 System.out.print("*");
-            }System.out.println();
+            }
+            System.out.println();
         }
 
-//        #3
-        System.out.println("..................................");
-        int num=1;
-        for(int i=1;i<=4;i++){
+        for (int i=n;i>=1;i--){
             for(int j=1;j<=i;j++){
 
-                System.out.print(num+" ");
-                num++;
+                System.out.print("*");
+            }
+            int spa=2*(n-i);
+            for( int j=1;j<=spa;j++){
+
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
             }
             System.out.println();
         }
-
-        System.out.println("..................................");
-
-//        #4
-     for(int i=1;i<=4;i++){
-         for(int j=1;j<=4;j++){
-             System.out.print("*");
-         }
-         System.out.println();
-     }
-
-
-        System.out.println("..................................");
-
-//     #5
-
-        int n=4;
-        int m=5;
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=m;j++){
-                if( i==1 || j==1 || i==n || j==m){
-                    System.out.print("*");
-                }else{
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
-        }
-
     }
 }
